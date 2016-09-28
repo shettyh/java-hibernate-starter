@@ -3,6 +3,10 @@ package com.hibernate.starter.main;
 import com.hibernate.starter.dao.CityDAO;
 import com.hibernate.starter.entity.City;
 
+/**
+ * Main class
+ * @author manjunatha_h
+ */
 public class BootStrap {
 
 	public static void main(String[] args) {

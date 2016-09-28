@@ -6,6 +6,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+/**
+ * Top level class for all entity DAO's
+ * @author manjunatha_h
+ * @param <T> DB Entity class
+ */
 public class AbstractDAO<T> {
 
 	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("myapp");

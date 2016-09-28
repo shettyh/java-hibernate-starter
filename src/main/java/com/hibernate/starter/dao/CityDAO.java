@@ -8,6 +8,11 @@ import javax.persistence.NoResultException;
 import com.hibernate.starter.common.AbstractDAO;
 import com.hibernate.starter.entity.City;
 
+/**
+ * City table Data access object
+ * @author manjunatha_h
+ *
+ */
 public class CityDAO extends AbstractDAO<City> {
 
 	public CityDAO() {

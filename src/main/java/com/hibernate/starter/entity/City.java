@@ -9,6 +9,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * City Table
+ * @author manjunatha_h
+ */
 @Entity
 @Table(name = "city")
 public class City implements Serializable {
