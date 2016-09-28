@@ -1,0 +1,1 @@
+# java-hibernate-starter
